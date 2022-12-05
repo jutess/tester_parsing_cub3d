@@ -1,5 +1,5 @@
-NO ./tester_parsing_cub3d/assets/pissaladiere.xpm
-SO ./tester_parsing_cub3d/assets/no_rights.xpm
+NO ./tester_parsing_cub3d/assets/bad
+SO ./tester_parsing_cub3d/assets/pissaladiere.xpm
 EA ./tester_parsing_cub3d/assets/pissaladiere.xpm
 WE ./tester_parsing_cub3d/assets/pissaladiere.xpm
 C 10, 10, 10

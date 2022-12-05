@@ -230,17 +230,17 @@ echo -e "${YEL}lecture ${RED} 73 copy.bad_chars_beetween_F_and_map :${WHITE}"
 echo -e "${YEL}lecture ${RED} 74.bad_chars_after_map :${WHITE}"
 ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/74.bad_chars_after_map.cub
 
-echo -e "${YEL}lecture ${RED} 87.id_NO_no_rigths :${WHITE}"
-./cub3d ./tester_parsing_cub3d/maps/invalid_maps/87.id_NO_no_rigths.cub
+echo -e "${YEL}lecture ${RED} 87.id_NO_bad_arg :${WHITE}"
+./cub3d ./tester_parsing_cub3d/maps/invalid_maps/87.id_NO_bad_arg.cub
 
-echo -e "${YEL}lecture ${RED} 88.id_SO_no_rigths :${WHITE}"
-./cub3d ./tester_parsing_cub3d/maps/invalid_maps/88.id_SO_no_rigths.cub
+echo -e "${YEL}lecture ${RED} 88.id_SO_bad_arg :${WHITE}"
+./cub3d ./tester_parsing_cub3d/maps/invalid_maps/88.id_SO_bad_arg.cub
 
-echo -e "${YEL}lecture ${RED} 89.id_EA_no_rigths :${WHITE}"
-./cub3d ./tester_parsing_cub3d/maps/invalid_maps/89.id_EA_no_rigths.cub
+echo -e "${YEL}lecture ${RED} 89.id_EA_bad_arg :${WHITE}"
+./cub3d ./tester_parsing_cub3d/maps/invalid_maps/89.id_EA_bad_arg.cub
 
-echo -e "${YEL}lecture ${RED} 90.id_WE_no_rigths :${WHITE}"
-./cub3d ./tester_parsing_cub3d/maps/invalid_maps/90.id_WE_no_rigths.cub
+echo -e "${YEL}lecture ${RED} 90.id_WE_bad_arg :${WHITE}"
+./cub3d ./tester_parsing_cub3d/maps/invalid_maps/90.id_WE_bad_arg.cub
 
 echo -e "${YEL}lecture ${RED} 91.id_NO_no_arg :${WHITE}"
 ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/91.id_NO_no_arg.cub
@@ -481,3 +481,6 @@ echo -e "${YEL}lecture ${RED} 177.map_whole_player_right :${WHITE}"
 
 echo -e "${YEL}lecture ${RED} 179.map_whole_player_below :${WHITE}"
 ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/179.map_whole_player_below.cub
+
+echo -e "${YEL}lecture ${RED} 180.map_dirty_chars_after_map_and_empty_lines :${WHITE}"
+./cub3d ./tester_parsing_cub3d/maps/invalid_maps/180.map_dirty_chars_after_map_and_empty_lines.cub
