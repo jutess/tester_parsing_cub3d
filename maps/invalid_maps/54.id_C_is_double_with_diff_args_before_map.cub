@@ -1,0 +1,17 @@
+NO ./tester_parsing_cub3d/assets/pissaladiere.xpm
+SO ./tester_parsing_cub3d/assets/pissaladiere.xpm
+EA ./tester_parsing_cub3d/assets/pissaladiere.xpm
+WE ./tester_parsing_cub3d/assets/pissaladiere.xpm
+C 10, 10, 10
+C 10, 5, 10
+F 10, 10, 10
+
+111111111111111
+100000000000001
+100000000000001
+100000000000001
+1000000N0000001
+100000000000001
+100000000000001
+100000000000001
+111111111111111
