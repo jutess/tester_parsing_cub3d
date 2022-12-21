@@ -3,14 +3,26 @@
 README rédigé par chatGPT :
 
 ## 🚠Introduction
-Ce programme a pour but de tester le parsing d'un autre programme en lui fournissant des cartes contenant des informations fausses. Il s'agit d'un outil de test qui peut être utilisé pour améliorer la robustesse du parsing de votre propre projet.
+Il était une fois, dans un royaume lointain, un programme qui avait pour mission de tester le parsing d'un autre programme. Pour ce faire, il lui fournissait des cartes contenant des informations fausses.
 
-Il est important de noter que ce testeur n'a pas pour but de casser le parsing d'un projet en correction, mais plutôt de découvrir d'éventuelles erreurs de parsing de son propre projet et améliorer sa robustesse. Plusieurs points peuvent être soumis à discussion concernant ce qui est considéré comme une erreur de parsing avec ce testeur.
+Ce programme était un outil de test précieux qui permettait aux développeurs de vérifier la robustesse du parsing de leurs propres projets. Cependant, il était important de ne pas confondre son rôle avec celui de casser le parsing d'un projet en correction. Non, sa mission était plutôt de découvrir d'éventuelles erreurs de parsing dans son propre projet et de les corriger afin d'améliorer sa robustesse.
+
+Il y avait cependant certaines choses qui pouvaient être sujettes à discussion concernant ce qui était considéré comme une erreur de parsing avec ce testeur. Malgré ces divergences d'opinion, le programme restait un allié précieux pour tous les développeurs qui souhaitaient améliorer la qualité de leur travail.
 
 ## 🛀Utilisation
-Pour utiliser ce programme, vous devez d'abord copier le lien du dépôt Git et utiliser la commande git clone pour cloner le dépôt dans le projet cub3d à tester.
-Ensuite, rendez-vous dans le dossier qui vient d'être cloné et utilisez la commande suivante pour lancer le programme de test de parsing : ./test.sh
-
+Pour utiliser le testeur :
+1) copier le lien du dépôt Git
+2) aller dans le projet cub3d à tester, puis faire un git clone avec le lien copié précédemment.
+3) aller dans le dossier qui vient d'être créé et lancer le programme suivant dans votre terminal : ./test.sh
 
 ## 🎁Branche bilan_parsing
-Dans la branche "bilan_parsing", il y a une autre version en cours d'élaboration qui essaie de synthétiser les différents éléments qui ressortent des tests (nombre de fois où le programme s'est lancé alors qu'ils n'aurait potentiellement pas dû, nombre de segfaults, etc.). Cette version, encore bien imparfaite, peut être utilisée pour obtenir un aperçu des résultats des tests et pour identifier les points à améliorer dans le parsing de votre propre projet. Les modalités d'éxecution de cette version sont les mêmes que pour la branche Master.
+Il était une fois, dans un royaume lointain, une branche appelée "bilan_parsing" qui contenait une version en cours d'élaboration d'un programme. Cette version avait pour mission de synthétiser les différents éléments qui ressortaient des tests, tels que le nombre de fois où le programme s'était lancé alors qu'il n'aurait potentiellement pas dû, le nombre de segfaults, etc.
+
+Bien que cette version soit encore imparfaite, elle pouvait être utilisée pour obtenir un bilan des résultats des tests. Les développeurs du royaume espéraient que cette version leur permettrait de mieux comprendre les résultats de leurs tests et de trouver de nouvelles façons d'améliorer leur travail.
+
+Pendant de longues années, les développeurs utilisèrent cette version pour tester leur projet et améliorer sa robustesse. Avec le temps, le programme devint de plus en plus précis et fiable, et les développeurs furent en mesure de livrer des projets de qualité exceptionnelle.
+
+Et ainsi, grâce à cet outil de test précieux, le royaume connut une ère de prospérité et de paix.
+
+### Pour aller plus loin
+Vous pouvez aussi regarder les cartes réalisées par https://github.com/HSavinien dans son projet. C'est après avoir segfault sur quelques-une de ses nombreuses cartes que j'ai pensé à l'utilité de ce tester pour mon projet. Il a aussi réalisé une série de fichiers avec lesquels le programme est censé fonctionner.
