@@ -1,0 +1,315 @@
+make[1]: Nothing to be done for `all'.
+[0;33m---  [0;31m1.miss_id_NO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m2.miss_id_SO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m3.miss_id_EA [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m4.miss_id_WE [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m5.miss_id_C.cub  [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m6.miss_id_F [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m7.id_NO_after_map [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m8.id_SO_after_map [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m9.id_EA_after_map [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m10.id_WE_after_map.cub  [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m11.id_C_after_map [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m12.id_F_after_map [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m13.letters_before_id_NO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m14.letters_before_id_SO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m15.letters_before_id_EA [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m16.letters_before_id_WE [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m17.letters_before_id_C [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m18.letters_before_id_F [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m19.letters_bet_id_NO_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m20.letters_bet_id_SO_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m21.letters_bet_id_EA_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m22.letters_bet_id_WE_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m23.letters_bet_id_C_and_args [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m24.letters_bet_id_F_and_args [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m25.letters_after_args_id_NO [0;37m
+❌ [1;31mError: texture file name name must end with .xpm
+[0m[0;33m---  [0;31m26.letters_after_args_id_SO [0;37m
+❌ [1;31mError: texture file name name must end with .xpm
+[0m[0;33m---  [0;31m27.letters_after_args_id_EA [0;37m
+❌ [1;31mError: texture file name name must end with .xpm
+[0m[0;33m---  [0;31m28.letters_after_args_id_WE [0;37m
+❌ [1;31mError: texture file name name must end with .xpm
+[0m[0;33m---  [0;31m29.letters_after_args_id_C [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m30.letters_after_args_id_F [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m31.tabs_beetwen_id_NO_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m32.tabs_beetwen_id_SO_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m33.tabs_beetwen_id_EA_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m34.tabs_beetwen_id_WE_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m35.tabs_beetwen_id_C_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m36.tabs_beetwen_id_F_and_args [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m37.args_before_id_NO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m38.args_before_id_SO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m39.args_before_id_EA [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m40.args_before_id_WE [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m41.args_before_id_NO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m42.args_before_id_C [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m43.args_before_id_F [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m44.id_NO_is_double_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m45.id_SO_is_double_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m46.id_EA_is_double_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m47.id_WE_is_double_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m48.id_C_is_double_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m49.id_F_is_double_before_map [0;37m
+❌ [1;31mError: empty lines are not allowed in the map.
+[0m[0;33m---  [0;31m50.id_NO_is_double_with_diff_args_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m51.id_SO_is_double_with_diff_args_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m52.id_EA_is_double_with_diff_args_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m53.id_WE_is_double_with_diff_args_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m54.id_C_is_double_with_diff_args_before_map [0;37m
+❌ [1;31mError: duplicated map parameters.
+[0m[0;33m---  [0;31m55.id_F_is_double_with_diff_args_before_map [0;37m
+❌ [1;31mError: empty lines are not allowed in the map.
+[0m[0;33m---  [0;31m56.id_NO_is_double_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m57.id_SO_is_double_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m58.id_EA_is_double_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m59.id_WE_is_double_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m60.id_C_is_double_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m61.id_F_is_double_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m62.id_NO_is_double_with_diff_args_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m63.id_SO_is_double_with_diff_args_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m64.id_EA_is_double_with_diff_args_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m65.id_WE_is_double_with_diff_args_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m66.id_C_is_double_with_diff_args_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m67.id_F_is_double_with_diff_args_after_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m68.bad_chars_beetween_NO_and_SO [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m69.bad_chars_beetween_SO_and_EA [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m70.bad_chars_beetween_EA_and_WE [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m71.bad_chars_beetween_WE_and_C [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m72.bad_chars_beetween_C_and_F [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m73 copy.bad_chars_beetween_F_and_map [0;37m
+❌ [1;31mError: please use a correct format.
+[0m[0;33m---  [0;31m74.bad_chars_after_map [0;37m
+❌ [1;31mError: empty lines are not allowed in the map.
+[0m[0;33m---  [0;31m87.id_NO_bad_arg [0;37m
+❌ [1;31mError: texture file name name must end with .xpm
+[0m[0;33m---  [0;31m88.id_SO_bad_arg [0;37m
+❌ [1;31mError: some texture files are invalid.
+[0m[0;33m---  [0;31m89.id_EA_bad_arg [0;37m
+❌ [1;31mError: some texture files are invalid.
+[0m[0;33m---  [0;31m90.id_WE_bad_arg [0;37m
+❌ [1;31mError: some texture files are invalid.
+[0m[0;33m---  [0;31m91.id_NO_no_arg [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m92.id_SO_no_arg [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m93.id_EA_no_arg [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m94.id_WE_no_arg [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m95.id_C_no_arg [0;37m
+❌ [1;31mError: map params must have a value.
+[0m[0;33m---  [0;31m96.id_F_no_arg [0;37m
+❌ [1;31mError: map params must have a value.
+[0m[0;33m---  [0;31m97.id_NO_lowercase [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m98.id_SO_lowercase [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m99.id_EA_lowercase [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m100.id_WE_lowercase [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m101.id_C_lowercase [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m102.id_F_lowercase [0;37m
+❌ [1;31mError: map parameters syntax is not correct.
+[0m[0;33m---  [0;31m103.id_C_over_range_red [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m104.id_F_over_range_red [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m105.id_C_over_range_green [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m106.id_F_over_range_green [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m107.id_C_over_range_blue [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m108.id_F_over_range_blue [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m109.id_C_over_range_big_nb_red [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m110.id_F_over_range_big_nb_red [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m111.id_C_over_range_big_nb_green [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m111.id_C_over_range_big_nb_green [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m112.id_F_over_big_nb_range_green [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m113.id_C_over_range_big_nb_blue [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m114.id_F_over_range_big_nb_rblue [0;37m
+❌ [1;31mError: RGB values must be in [0, 255] range.
+[0m[0;33m---  [0;31m115.id_C_commat_beg [0;37m
+❌ [1;31mError: number of commas is not correct.
+[0m[0;33m---  [0;31m116.id_F_commat_beg [0;37m
+❌ [1;31mError: number of commas is not correct.
+[0m[0;33m---  [0;31m117.id_C_commat_end [0;37m
+❌ [1;31mError: number of commas is not correct.
+[0m[0;33m---  [0;31m118.id_F_commat_end [0;37m
+❌ [1;31mError: number of commas is not correct.
+[0m[0;33m---  [0;31m119.id_C_double_commat [0;37m
+❌ [1;31mError: number of commas is not correct.
+[0m[0;33m---  [0;31m120.id_F_double_commat [0;37m
+❌ [1;31mError: number of commas is not correct.
+[0m[0;33m---  [0;31m121.map_double_N [0;37m
+❌ [1;31mError: only one player is allowed in the map.
+[0m[0;33m---  [0;31m122.map_double_S [0;37m
+❌ [1;31mError: only one player is allowed in the map.
+[0m[0;33m---  [0;31m123.map_double_E [0;37m
+❌ [1;31mError: only one player is allowed in the map.
+[0m[0;33m---  [0;31m124.map_double_W [0;37m
+❌ [1;31mError: only one player is allowed in the map.
+[0m[0;33m---  [0;31m125.map_lower_player_N [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m126.map_lower_player_S [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m127.map_lower_player_E [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m128.map_lower_player_W [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m129.map_player_outside_N [0;37m
+./test.sh: line 489: 22577 Segmentation fault: 11  ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/129.map_player_outside_N.cub
+[0;33m---  [0;31m130.map_player_outside_S [0;37m
+./test.sh: line 489: 22578 Segmentation fault: 11  ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/130.map_player_outside_S.cub
+[0;33m---  [0;31m131.map_player_outside_E [0;37m
+./test.sh: line 489: 22582 Segmentation fault: 11  ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/131.map_player_outside_E.cub
+[0;33m---  [0;31m132.map_player_outside_O [0;37m
+[0;33m---  [0;31m133.map_player_below [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m134.map_player_above [0;37m
+./test.sh: line 489: 22587 Segmentation fault: 11  ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/134.map_player_above.cub
+[0;33m---  [0;31m135.map_player_left [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m136.map_player_right [0;37m
+[0;33m---  [0;31m137.map_player_up_left [0;37m
+./test.sh: line 489: 22590 Segmentation fault: 11  ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/137.map_player_up_left.cub
+[0;33m---  [0;31m138.map_player_up_right [0;37m
+./test.sh: line 489: 22593 Segmentation fault: 11  ./cub3d ./tester_parsing_cub3d/maps/invalid_maps/138.map_player_up_right.cub
+[0;33m---  [0;31m139.map_player_down_left [0;37m
+[0;33m---  [0;31m140.map_player_down_right [0;37m
+[0;33m---  [0;31m141._map_open_right [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m142._map_open_left [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m143._map_open_above [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m144._map_open_below [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m155.map_second_map_open_above [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m156.map_second_map_below_up [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m157.map_second_map_open_left [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m158.map_second_map_open_right [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m159.id_C_neg_number_red [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m159.id_C_neg_number_red [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m160.id_C_neg_number_green [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m161.id_C_neg_number_blue [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m162.id_F_neg_number_red [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m163.id_F_neg_number_green [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m164.id_F_neg_number_blue [0;37m
+❌ [1;31mError: ceiling and floor must be integers.
+[0m[0;33m---  [0;31m165.map_wrong_char_inside [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m166.map_wrong_char_outside [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m167.map_empty_line_2_maps_closed [0;37m
+❌ [1;31mError: empty lines are not allowed in the map.
+[0m[0;33m---  [0;31m168.map_empty_line_2_maps_open [0;37m
+❌ [1;31mError: empty lines are not allowed in the map.
+[0m[0;33m---  [0;31m169.map_tab_inside_map [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m170.map_wrong_char_below [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m[0;33m---  [0;31m171.map_whole_player_inside_spaces [0;37m
+[0;33m---  [0;31m172.map_whole_open_left [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m173.map_whole_open_right [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m174.map_whole_open_above [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m175.map_whole_open_below [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m176.map_whole_player_left [0;37m
+❌ [1;31mError: map should be surrounded by walls.
+[0m[0;33m---  [0;31m177.map_whole_player_right [0;37m
+❌ [1;31mError: only one player is allowed in the map.
+[0m[0;33m---  [0;31m179.map_whole_player_below [0;37m
+❌ [1;31mError: only one player is allowed in the map.
+[0m[0;33m---  [0;31m180.map_dirty_chars_after_map_and_empty_lines [0;37m
+❌ [1;31mError: map contains forbidden characters.
+[0m
