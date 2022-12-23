@@ -1,5 +1,3 @@
 # tester_parsing_cub3d
 
-Ce testeur n'est pas fait dans le but de casser des parsings de cub3d en correction, mais pour améliorer le parsing de son propre programme.
-
-Aller à la racine du projet cub3d à tester. Faire un git clone du testeur. Aller dans le clone et lancer ./test.sh dans le terminal
+les données récoltées seront éronnées si d'autres choses externes à cub3d sont censées s'affichers sur le terminal (par exemple l'appel a system pour les leaks. Pensez-donc à muter cette ligne si elle est présente)
