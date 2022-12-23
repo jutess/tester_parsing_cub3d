@@ -6,10 +6,8 @@ RED='\033[0;31m'
 WHITE='\033[0;37m' 
 
 	cd ../
-
+	make
 {
-	make 
-	
 	echo -e "${YEL}---${RED}1.miss_id_NO ${WHITE}"
 	./cub3d ./tester_parsing_cub3d/maps/invalid_maps/1.miss_id_NO.cub 
 
