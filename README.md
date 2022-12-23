@@ -8,7 +8,7 @@ Il était une fois, dans un royaume lointain, un programme qui avait pour missio
 Ce programme était un outil de test précieux qui permettait aux développeurs de vérifier la robustesse du parsing de leurs propres projets. Cependant, il était important de ne pas confondre son rôle avec celui de casser le parsing d'un projet en correction. Non, sa mission était plutôt de découvrir d'éventuelles erreurs de parsing dans son propre projet et de les corriger afin d'améliorer sa robustesse.
 
 Il y avait cependant certaines choses qui pouvaient être sujettes à discussion concernant ce qui était considéré comme une erreur de parsing avec ce testeur. Malgré ces divergences d'opinion, le programme restait un allié précieux pour tous les développeurs qui souhaitaient améliorer la qualité de leur travail.
-
+ 
 ## 🛀Utilisation
 Pour utiliser le testeur :
 1) copier le lien du dépôt Git
