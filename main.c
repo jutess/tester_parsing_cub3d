@@ -92,7 +92,7 @@ int	ret_nb_maps_readed(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "lecture"))
+		if (strstr(tab[i], "---"))
 			nb++;
 	}
 	return (nb);
@@ -107,7 +107,7 @@ int	ret_nb_files_errors_checked(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "rror") && i > 0 && strstr(tab[i - 1], "lecture"))
+		if (strstr(tab[i], "rror") && i > 0 && strstr(tab[i - 1], "---"))
 			nb++;
 	}
 	return (nb);
@@ -122,7 +122,7 @@ int	ret_nb_segfault(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "egmentation") && i > 0 && strstr(tab[i - 1], "lecture"))
+		if (strstr(tab[i], "egmentation") && i > 0 && strstr(tab[i - 1], "---"))
 			nb++;
 	}
 	return (nb);	
@@ -137,10 +137,38 @@ int	ret_nb_times_prog_opened(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "lecture") && (tab[i + 1] == NULL || strstr(tab[i + 1], "lecture")))
+		if (strstr(tab[i], "---") && (tab[i + 1] == NULL || strstr(tab[i + 1], "---")))
 			nb++;
 	}
 	return (nb);
+}
+
+void	printf_maps_with_segfault(char **tab)
+{
+	int	i;
+
+	i = 0;
+	printf("List of files that segfaults your program :\n");
+	while (tab[i])
+	{
+		if (strstr(tab[i], "egmentation"))
+			printf("\t%s", tab[i - 1]);
+		i++;
+	}
+}
+
+void	printf_maps_opened(char **tab)
+{
+	int	i;
+
+	i = 0;
+	printf("List of files that your programm has open :\n");
+	while (tab[i])
+	{
+		if (strstr(tab[i], "---") && (tab[i + 1] == NULL || strstr(tab[i + 1], "---")))
+			printf("\t%s", tab[i]);
+		i++;
+	}
 }
 
 int main(void)
@@ -153,11 +181,18 @@ int main(void)
 
 	tab = record_file_in_tab();
 	nb_maps_readed = ret_nb_maps_readed(tab);
-	printf("\033[0;33m🍀Number of maps tested👉 : \033[0;31m%d\n\033[0;37m", nb_maps_readed);
 	nb_files_errors_checked = ret_nb_files_errors_checked(tab);
-	printf("\033[0;33m✅Number of errors detected by your parsing👉 : \033[0;31m%d\n\033[0;37m", nb_files_errors_checked);
 	nb_segfault = ret_nb_segfault(tab);
-	printf("\033[0;33m💀Number of segfaults👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
 	nb_times_prog_opened = ret_nb_times_prog_opened(tab);
-	printf("\033[0;33m💀Number times the programme opened and shouldn't👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
+
+	printf("\033[0;33m🍀Number of different files tested👉 : \033[0;31m%d\n\033[0;37m", nb_maps_readed);
+	printf("\033[0;33m✅Number of errors detected by your parsing👉 : \033[0;31m%d\n\033[0;37m", nb_files_errors_checked);
+	printf("\033[0;33m💀Number of segfaults👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
+	printf("\033[0;33m❓Number of times the program opened and shouldn't👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
+	printf("   (- if it opens, check if it segfaults when playing)\n");
+
+	printf_maps_with_segfault(tab);
+	printf_maps_opened(tab);
+
+
 }
