@@ -19,7 +19,8 @@ Pour utiliser le testeur :
 le testeur va compiler votre programme et le lancer avec plusieurs cartes. Si le parsing de votre cub3D prend en compte les coquilles plus ou moins importantes présente dans les fichiers tests, il ne s'ouvrira pas. Si c'est le cas, appuyez sur echap afin que votre cub3D quitte et que le parsing puisse tester le reste des cartes. A la fin, le testeur affiche :
 - le nombre de fichiers qui ont été testés.
 - le nombre de segfaults.
-- le nombre de fois où votre cub3D s'est lancé alors qu'il n'aurait peut-être pas dû. C'est à vous d'évaluer la pertinence des erreurs présentes volontairement dans les fichiers. Si votre programme s'ouvre, ce peut être par exemple lié au parsing des couleurs non prises en compte par votre programme (un doublon dans les identifiants de couleurs, etc.). Mais ce peut être aussi un problème lié au parsing de la carte (si le joueur est à l'extérieur). Dans ce cas, votre programme peut segfault si vous commencez à jouer. Attention donc dans l'interprétation des données.
+- le nombre de fois où votre cub3D s'est lancé.
+  - Normalement, votre cub3D n'est pas censé s'ouvrir s'il a pris en compte toutes les erreurs présentes dans les fichiers.
 - la liste des fichiers qui ont fait segfault votre programme.
 - la liste des fichiers avec lesquel votre cub3D s'est exécuté. 
 Si votre cub3D ne se lance jamais, c'est que votre parsing a trouvé toutes les coquilles plus ou moins importantes présentes dans les fichiers du testeur.
@@ -27,25 +28,3 @@ A noter que si votre programme affiche des choses qu'il ne devrait pas afficher 
 
 ### Pour aller plus loin
 Vous pouvez aussi regarder les cartes réalisées par https://github.com/HSavinien dans son projet. C'est après avoir segfault sur quelques-une de ses nombreuses cartes que j'ai pensé à l'utilité de ce tester pour mon projet. Il a aussi réalisé une série de fichiers avec lesquels le programme est censé fonctionner.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-les données récoltées seront éronnées si d'autres choses externes à cub3d sont censées s'affichers sur le terminal (par exemple l'appel a system pour les leaks. Pensez-donc à muter cette ligne si elle est présente)
