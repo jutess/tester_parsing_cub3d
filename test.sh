@@ -224,8 +224,8 @@ WHITE='\033[0;37m'
 	echo -e "${YEL}-----${RED}72.bad_chars_beetween_C_and_F ${WHITE}"
 	./cub3d ./tester_parsing_cub3d/maps/invalid_maps/72.bad_chars_beetween_C_and_F.cub 
 
-	echo -e "${YEL}-----${RED}73 copy.bad_chars_beetween_F_and_map ${WHITE}"
-	./cub3d ./tester_parsing_cub3d/maps/invalid_maps/73 copy.bad_chars_beetween_F_and_map.cub 
+	echo -e "${YEL}-----${RED}73.bad_chars_beetween_F_and_map ${WHITE}"
+	./cub3d ./tester_parsing_cub3d/maps/invalid_maps/73.bad_chars_beetween_F_and_map.cub 
 
 	echo -e "${YEL}-----${RED}74.bad_chars_after_map ${WHITE}"
 	./cub3d ./tester_parsing_cub3d/maps/invalid_maps/74.bad_chars_after_map.cub 
