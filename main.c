@@ -107,7 +107,7 @@ int	ret_nb_files_errors_checked(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "rror") && i > 0 && strstr(tab[i - 1], "---"))
+		if (strstr(tab[i], "rror") && i > 0 && strstr(tab[i - 1], "-----"))
 			nb++;
 	}
 	return (nb);
@@ -137,7 +137,7 @@ int	ret_nb_times_prog_opened(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "---") && (tab[i + 1] == NULL || strstr(tab[i + 1], "---")))
+		if (strstr(tab[i], "-----") && (tab[i + 1] == NULL || strstr(tab[i + 1], "-----")))
 			nb++;
 	}
 	return (nb);
