@@ -92,7 +92,7 @@ int	ret_nb_maps_readed(char **tab)
 	i = -1;
 	while (tab[++i])
 	{
-		if (strstr(tab[i], "---"))
+		if (strstr(tab[i], "-----"))
 			nb++;
 	}
 	return (nb);
