@@ -492,5 +492,5 @@ gcc main.c
 ./a.out
 
 
-# rm ../fichier
+rm ../fichier
 rm ./a.out
