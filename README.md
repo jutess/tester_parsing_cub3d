@@ -16,15 +16,23 @@ Pour utiliser le testeur :
 3) aller dans le dossier qui vient d'être créé et lancer le programme suivant dans votre terminal : ./test.sh
 
 ## Fonctionnement du testeur
-le testeur va compiler votre programme et le lancer avec plusieurs cartes. Si le parsing de votre cub3D prend en compte les coquilles plus ou moins importantes présente dans les fichiers tests, il ne s'ouvrira pas. Si c'est le cas, appuyez sur echap afin que votre cub3D quitte et que le parsing puisse tester le reste des cartes. A la fin, le testeur affiche :
+le testeur va compiler votre programme et le lancer avec plusieurs cartes. Si le parsing de votre cub3D prend en compte les coquilles plus où moins importantes présentes dans les fichiers tests, il ne s'ouvrira pas. Si c'est le cas, appuyez sur echap afin que votre cub3D quitte et que le parsing puisse tester le reste des cartes. 
+A la fin, le testeur affiche :
 - le nombre de fichiers qui ont été testés.
 - le nombre de segfaults.
 - le nombre de fois où votre cub3D s'est lancé.
   - Normalement, votre cub3D n'est pas censé s'ouvrir s'il a pris en compte toutes les erreurs présentes dans les fichiers.
 - la liste des fichiers qui ont fait segfault votre programme.
 - la liste des fichiers avec lesquel votre cub3D s'est exécuté. 
-Si votre cub3D ne se lance jamais, c'est que votre parsing a trouvé toutes les coquilles plus ou moins importantes présentes dans les fichiers du testeur.
-A noter que si votre programme affiche des choses qu'il ne devrait pas afficher dans l'absolu, mais que vous afichez dans le cadre de vos tests ("system leaks ..." par exemple), les données seront faussées. Pensez-donc à muter ces lignes.
+Si votre cub3D ne se lance jamais, c'est que votre parsing a trouvé toutes les coquilles plus ou moins importantes présentes dans les fichiers du testeur.Ce peut être aussi en raison d'une erreur du testeur qu'il n'aurait pas été anticipée.
+
+## Pour que le testeur fonctionne
+Pour que les données rendues par le testeur ne soient pas erronées, votre programme ne doit afficher qu'une seule chose tout au long de son exécution : "Error" suivi d'un message d'erreur détectée par votre parsing.
+En d'autres termes, voici une liste non exhaustive de lignes d'affichage à muter dans votre programme si elles existent :
+- utilisation de system ("leaks ...") ou toute autre commande permettant d'afficher les éventuels leaks.
+- utilisation d'un message pour dire que votre parsing n'a repéré aucune erreur.
+- utilisation d'un message lorsque vous quittez le programme.
+- etc.
 
 ### Pour aller plus loin
 Vous pouvez aussi regarder les cartes réalisées par https://github.com/HSavinien dans son projet. C'est après avoir segfault sur quelques-une de ses nombreuses cartes que j'ai pensé à l'utilité de ce tester pour mon projet. Il a aussi réalisé une série de fichiers avec lesquels le programme est censé fonctionner.
