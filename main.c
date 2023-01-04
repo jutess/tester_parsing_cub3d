@@ -186,13 +186,13 @@ int main(void)
 	nb_times_prog_opened = ret_nb_times_prog_opened(tab);
 
 	printf("\033[32m👀 Number of differents files tested 👉 : \033[0;31m%d\n\033[0;37m", nb_maps_readed);
-	printf("\033[32m🤌  Number of errors detected by your parsing 👉 : \033[0;31m%d\n\033[0;37m", nb_files_errors_checked);
+	printf("\033[32m✅  Number of errors detected by your parsing 👉 : \033[0;31m%d\n\033[0;37m", nb_files_errors_checked);
 	printf("\033[32m💀 Number of segfaults 👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
 	printf("\033[32m❓ Number of times the program opened and shouldn't 👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
 	printf("\033[3m   (- if it opens, check if it segfaults when playing)\n\033[0m\n");
 
-	printf_maps_with_segfault(tab);
-	printf_maps_opened(tab);
+	//printf_maps_with_segfault(tab);
+	//printf_maps_opened(tab);
 
 
 }
