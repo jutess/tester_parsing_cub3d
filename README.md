@@ -34,6 +34,6 @@ En d'autres termes, voici une liste non exhaustive de lignes d'affichage à mute
 - utilisation d'un message pour dire que votre parsing n'a repéré aucune erreur.
 - utilisation d'un message lorsque vous quittez le programme.
 - etc.
-warningwarningwarning
+
 ### Pour aller plus loin
 Vous pouvez aussi regarder les cartes réalisées par https://github.com/HSavinien dans son projet. C'est après avoir segfault sur quelques-une de ses nombreuses cartes que j'ai pensé à l'utilité de ce tester pour mon projet. Il a aussi réalisé une série de fichiers avec lesquels le programme est censé fonctionner.
