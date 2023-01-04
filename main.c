@@ -171,6 +171,42 @@ void	printf_maps_opened(char **tab)
 	}
 }
 
+int	check_if_error_type_already_rec(char **tab, int i)
+{
+	int	j;
+
+	j = i;
+	while (--j >= 0)
+	{
+		if (strcmp(tab[i], tab[j]) == 0)
+			return (1);
+	}
+	return (0);
+}
+
+
+void	printf_list_errors_detected(char **tab)
+{
+	int	i;
+
+	i = -1;
+	printf("\033[4m\033[33mList of errors detected by your programm :\n\033[0m");
+	while (tab[++i])
+	{
+		if (strstr(tab[i], "-----") && tab[i + 1] && strstr(tab[i + 1], "rror") && tab[i + 2])
+		{
+			i +=2;
+			while (tab[i] && !strstr(tab[i], "-----"))
+			{
+				if (! check_if_error_type_already_rec(tab, i))
+					printf("\033[32m👉\t%s\033[0m", tab[i]);
+				i++;
+			}
+			i--;
+		}
+	}
+}
+
 int main(void)
 {
 	char	**tab;
@@ -193,5 +229,5 @@ int main(void)
 
 	printf_maps_with_segfault(tab);
 	printf_maps_opened(tab);
-
+	printf_list_errors_detected(tab);
 }
