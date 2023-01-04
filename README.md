@@ -26,6 +26,7 @@ A la fin, le testeur affiche :
 - la liste des fichiers avec lesquel votre cub3D s'est exécuté. 
 Si votre cub3D ne se lance jamais, c'est que votre parsing a trouvé toutes les coquilles plus ou moins importantes présentes dans les fichiers du testeur.Ce peut être aussi en raison d'une erreur du testeur qu'il n'aurait pas été anticipée.
 
+
 ## Pour que le testeur fonctionne
 Pour que les données rendues par le testeur ne soient pas erronées, votre programme ne doit afficher qu'une seule chose tout au long de son exécution : "Error" suivi d'un message d'erreur détectée par votre parsing.
 En d'autres termes, voici une liste non exhaustive de lignes d'affichage à muter dans votre programme si elles existent :
@@ -33,6 +34,6 @@ En d'autres termes, voici une liste non exhaustive de lignes d'affichage à mute
 - utilisation d'un message pour dire que votre parsing n'a repéré aucune erreur.
 - utilisation d'un message lorsque vous quittez le programme.
 - etc.
-
+warningwarningwarning
 ### Pour aller plus loin
 Vous pouvez aussi regarder les cartes réalisées par https://github.com/HSavinien dans son projet. C'est après avoir segfault sur quelques-une de ses nombreuses cartes que j'ai pensé à l'utilité de ce tester pour mon projet. Il a aussi réalisé une série de fichiers avec lesquels le programme est censé fonctionner.
