@@ -25,6 +25,7 @@ A la fin, le testeur affiche :
 - la liste des fichiers qui ont fait segfault votre programme.
 - la liste des fichiers avec lesquel votre cub3D s'est exécuté. 
 Si votre cub3D ne se lance jamais, c'est que votre parsing a trouvé toutes les coquilles plus ou moins importantes présentes dans les fichiers du testeur.Ce peut être aussi en raison d'une erreur du testeur qu'il n'aurait pas été anticipée.
+
 ⚠️⚠️⚠️ Vérifiez bien que les erreurs retournées par votre parsing soient bien les bonnes. Par exemple, il se peut que votre parsing n'accepte les couleurs que sous cette forme "155,22,251", sans espace après les virgules. Dans le testeur, les couleurs sont indiquées avec des espaces après la virgule, ce qui est correct selon le sujet. Ainsi donc, votre parsing retournera une erreur pour chacune des cartes qui seront lancées et vous penserez que votre parsing aura prémuni votre programme de s'ouvrir avec les différentes erreurs présentes dans les fichiers testés, ce qui n'est pas le cas. La seule chose qui se sera passée c'est de retourner pour erreur une syntaxe qui ne devrait pas être considérée comme telle. En d'autres termes, le testeur dira que vous avez trouvé toutes les coquilles, ce qui n'est pas le cas. Il ne les aura pas testées. 
 
 
