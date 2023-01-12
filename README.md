@@ -13,7 +13,7 @@ Il y avait cependant certaines choses qui pouvaient être sujettes à discussion
 Pour utiliser le testeur :
 1) copier le lien du dépôt Git
 2) aller dans le projet cub3d à tester, puis faire un git clone avec le lien copié précédemment.
-3) aller dans le dossier qui vient d'être créé et lancer le programme suivant dans votre terminal : ./test.sh
+3) aller dans le dossier "tester_parsing_cub3d" qui vient d'être créé et lancer le programme suivant dans votre terminal : ./test.sh
 
 ## Fonctionnement du testeur
 le testeur va compiler votre programme et le lancer avec plusieurs cartes. Si le parsing de votre cub3D prend en compte les coquilles plus où moins importantes présentes dans les fichiers tests, il ne s'ouvrira pas. Si c'est le cas, appuyez sur echap afin que votre cub3D quitte et que le parsing puisse tester le reste des cartes. 
