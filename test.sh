@@ -1,18 +1,20 @@
 #!/bin/bash
 # Fichier "vote-nir"
 
-YEL='\033[0;37m'
-RED='\033[0;31m'
-WHITE='\033[0;37m' 
+
+YEL='\033[1;33m\033[1m'
+RED='\033[1;31m\033[1m'
+WHITE='\033[0m' 
 
 cd ../
 
 make
 if find . -maxdepth 1 -name "cub3d" | grep -q .; then
 {
+	echo -e "${YEL}=========================================================${WHITE}"
+	echo -e "${YEL}===============| RESULTS OF YOUR PARSING |===============${WHITE}"
+	echo -e "${YEL}=========================================================${WHITE}"
   	echo -e "${RED}BECAREFULL : your program creates an executable named cub3d.\nChange your Makefile from the name of your executable to cub3D${WHITE}"
-	echo -e "\033[0;33m\033[1m\t\tRESULTS OF YOUR PARSING\033[0m"
-
 	{
 		echo -e "${YEL}-----${RED}1.miss_id_NO ${WHITE}"
 		./cub3d ./tester_parsing_cub3d/maps/invalid_maps/1.miss_id_NO.cub 
@@ -501,7 +503,10 @@ if find . -maxdepth 1 -name "cub3d" | grep -q .; then
 }
 elif [ -f "cub3D" ]; then
 {
-	echo -e "\033[0;33m\033[1m\t\tRESULTS OF YOUR PARSING\033[0m"
+	echo -e "${YEL}=========================================================${WHITE}"
+	echo -e "${YEL}===============| RESULTS OF YOUR PARSING |===============${WHITE}"
+	echo -e "${YEL}=========================================================\n${WHITE}"
+
 	{
 		echo -e "${YEL}-----${RED}1.miss_id_NO ${WHITE}"
 		./cub3D ./tester_parsing_cub3d/maps/invalid_maps/1.miss_id_NO.cub 
