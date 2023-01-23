@@ -5,6 +5,15 @@
 # include <unistd.h>
 #include <string.h>
 
+
+#define PURPLE "\033[1;35m\033[1m"
+#define YELLOW "\033[1;33m\033[1m"
+#define WHITE "\033[0m"
+#define GREEN "\033[1;32m\033[1m"
+#define RED "\033[1;31m\033[1m"
+
+
+
 int	ft_strlen(char *str)
 {
 	int i;
@@ -148,13 +157,17 @@ void	printf_maps_with_segfault(char **tab)
 	int	i;
 
 	i = 0;
-	printf("\033[4m\033[33mList of files that segfaults your program :\n\033[0m");
+
+	printf(PURPLE"\n=========================================================\n"WHITE);
+	printf(YELLOW"\tLIST OF FILES THAT SEGFAULTS YOUR PROGRAM\n"WHITE);
+	printf(PURPLE"=========================================================\n"WHITE);
 	while (tab[i])
 	{
 		if (strstr(tab[i], "egmentation"))
 			printf("%s", tab[i - 1]);
 		i++;
 	}
+	// printf(PURPLE"=========================================================\n\n"WHITE);
 }
 
 void	printf_maps_opened(char **tab)
@@ -162,13 +175,16 @@ void	printf_maps_opened(char **tab)
 	int	i;
 
 	i = 0;
-	printf("\033[4m\033[33mList of files that your programm has open :\n\033[0m");
+	printf(PURPLE"\n=========================================================\n"WHITE);
+	printf(YELLOW"\tLIST OF FILES THAT YOUR PROGRAM HAS OPEN\n"WHITE);
+	printf(PURPLE"=========================================================\n"WHITE);
 	while (tab[i])
 	{
 		if (strstr(tab[i], "---") && (tab[i + 1] == NULL || strstr(tab[i + 1], "---")))
 			printf("%s", tab[i]);
 		i++;
 	}
+	// printf(PURPLE"=========================================================\n\n"WHITE);
 }
 
 int	check_if_error_type_already_rec(char **tab, int i)
@@ -190,7 +206,9 @@ void	printf_list_errors_detected(char **tab)
 	int	i;
 
 	i = -1;
-	printf("\033[4m\033[33mList of errors detected by your programm :\n\033[0m");
+	printf(PURPLE"\n=========================================================\n"WHITE);
+	printf(YELLOW"\tLIST OF ERRORS DETECTED BY YOUR PROGRAM\n"WHITE);
+	printf(PURPLE"=========================================================\n"WHITE);
 	while (tab[++i])
 	{
 		if (strstr(tab[i], "-----") && tab[i + 1] && strstr(tab[i + 1], "rror") && tab[i + 2])
@@ -199,12 +217,13 @@ void	printf_list_errors_detected(char **tab)
 			while (tab[i] && !strstr(tab[i], "-----"))
 			{
 				if (! check_if_error_type_already_rec(tab, i))
-					printf("\033[32m👉\t%s\033[0m", tab[i]);
+					printf(GREEN"👉 %s"WHITE, tab[i]);
 				i++;
 			}
 			i--;
 		}
 	}
+	// printf(PURPLE"=========================================================\n"WHITE);
 }
 
 int main(void)
@@ -221,11 +240,16 @@ int main(void)
 	nb_segfault = ret_nb_segfault(tab);
 	nb_times_prog_opened = ret_nb_times_prog_opened(tab);
 
-	printf("\033[32m👀 Number of differents files tested 👉 : \033[0;31m%d\n\033[0;37m", nb_maps_readed);
-	printf("\033[32m✅  Number of errors detected by your parsing 👉 : \033[0;31m%d\n\033[0;37m", nb_files_errors_checked);
-	printf("\033[32m💀 Number of segfaults 👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
-	printf("\033[32m❓ Number of times the program opened and shouldn't 👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
-	printf("\033[3m   (- if it opens, check if it segfaults when playing)\n\033[0m\n");
+
+	printf(PURPLE"=========================================================\n"WHITE);
+	printf(YELLOW"\tSUMMARY OF DATA COLLECTED BY THE TESTER\n"WHITE);
+	printf(PURPLE"=========================================================\n"WHITE);
+	printf(GREEN"👀 Number of differents files tested 👉 : \033[0;31m%d\n\033[0;37m", nb_maps_readed);
+	printf(GREEN"✅  Number of errors detected by your parsing 👉 : \033[0;31m%d\n\033[0;37m", nb_files_errors_checked);
+	printf(GREEN"💀 Number of segfaults 👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
+	printf(GREEN"❓ Number of times the program opened and shouldn't 👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
+	printf("\033[3m   (- if it opens, check if it segfaults when playing)\n\033[0m");
+	// printf(PURPLE"=========================================================\n\n"WHITE);
 
 	printf_maps_with_segfault(tab);
 	printf_maps_opened(tab);
