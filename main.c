@@ -223,6 +223,30 @@ void	printf_list_errors_detected(char **tab)
 	}
 }
 
+int ret_nb_diff_err_messages(char **tab){
+	int	i;
+	int j;
+
+	i = -1;
+	j = 0;
+	while (tab[++i])
+	{
+		if (strstr(tab[i], "-----") && tab[i + 1] && strstr(tab[i + 1], "rror") && tab[i + 2])
+		{
+			i +=2;
+			while (tab[i] && !strstr(tab[i], "-----"))
+			{
+				if (! check_if_error_type_already_rec(tab, i)){
+					j++;
+				}
+				i++;
+			}
+			i--;
+		}
+	}
+	return (j);
+}
+
 int main(void)
 {
 	char	**tab;
@@ -230,13 +254,14 @@ int main(void)
 	int		nb_maps_readed;
 	int		nb_files_errors_checked;
 	int		nb_times_prog_opened;
+	int		nb_diff_types_errors;
 
 	tab = record_file_in_tab();
 	nb_maps_readed = ret_nb_maps_readed(tab);
 	nb_files_errors_checked = ret_nb_files_errors_checked(tab);
 	nb_segfault = ret_nb_segfault(tab);
 	nb_times_prog_opened = ret_nb_times_prog_opened(tab);
-
+	nb_diff_types_errors = ret_nb_diff_err_messages(tab);
 
 	printf(PURPLE"=========================================================\n"WHITE);
 	printf(YELLOW"\tSUMMARY OF DATA COLLECTED BY THE TESTER\n"WHITE);
@@ -246,6 +271,7 @@ int main(void)
 	printf(GREEN"💀 Number of segfaults 👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
 	printf(GREEN"❓ Number of times the program opened and shouldn't 👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
 	printf("\033[3m   (- if it opens, check if it segfaults when playing)\n\033[0m");
+	printf(GREEN"❓ number of different error messages returned by your parsing 👉 : \033[0;31m%d\n\033[0;37m", nb_diff_types_errors);
 
 	printf_maps_with_segfault(tab);
 	printf_maps_opened(tab);
