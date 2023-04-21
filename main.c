@@ -167,7 +167,6 @@ void	printf_maps_with_segfault(char **tab)
 			printf("%s", tab[i - 1]);
 		i++;
 	}
-	// printf(PURPLE"=========================================================\n\n"WHITE);
 }
 
 void	printf_maps_opened(char **tab)
@@ -184,7 +183,6 @@ void	printf_maps_opened(char **tab)
 			printf("%s", tab[i]);
 		i++;
 	}
-	// printf(PURPLE"=========================================================\n\n"WHITE);
 }
 
 int	check_if_error_type_already_rec(char **tab, int i)
@@ -194,7 +192,7 @@ int	check_if_error_type_already_rec(char **tab, int i)
 	j = i;
 	while (--j >= 0)
 	{
-		if (strcmp(tab[i], tab[j]) == 0)
+		if (!tab[i][0] || strcmp(tab[i], tab[j]) == 0)
 			return (1);
 	}
 	return (0);
@@ -223,7 +221,6 @@ void	printf_list_errors_detected(char **tab)
 			i--;
 		}
 	}
-	// printf(PURPLE"=========================================================\n"WHITE);
 }
 
 int main(void)
@@ -249,7 +246,6 @@ int main(void)
 	printf(GREEN"💀 Number of segfaults 👉 : \033[0;31m%d\n\033[0;37m", nb_segfault);
 	printf(GREEN"❓ Number of times the program opened and shouldn't 👉 : \033[0;31m%d\n\033[0;37m", nb_times_prog_opened);
 	printf("\033[3m   (- if it opens, check if it segfaults when playing)\n\033[0m");
-	// printf(PURPLE"=========================================================\n\n"WHITE);
 
 	printf_maps_with_segfault(tab);
 	printf_maps_opened(tab);
